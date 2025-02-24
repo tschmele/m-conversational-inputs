@@ -17,7 +17,7 @@ corpus_speakers = {s: Speaker(id=s, meta={}) for s in speakers}
 
 parser = TextParser(verbosity=5000)
 ps = PolitenessStrategies()
-with open('convotest/model.p', 'rb') as f:
+with open('model.p', 'rb') as f:
     model = pickle.load(f)
 clf = Classifier(obj_type='utterance', 
                         pred_feats=['politeness_strategies'], 

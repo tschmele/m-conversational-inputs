@@ -20,7 +20,11 @@ init python:
             sk.extend(all_keys[mk][t])
         subkey_list[mk] = sk
 
-    client_socket = Client('9.tcp.eu.ngrok.io', 23051)      # host address should be stable 
+    # "online" version used in testing
+    # client_socket = Client('9.tcp.eu.ngrok.io', 23051)      # host address no longer available 
+
+    # localhost version for private testing
+    client_socket = Client('127.0.0.1', 5000)
 
     class textParser(object):
         def __init__(self, open_tag, close_tag):

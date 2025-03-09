@@ -1,0 +1,60 @@
+#!/usr/bin/env python3
+
+import selectors
+import socket
+import os
+import traceback
+
+from pyngrok import ngrok
+
+import libserver
+
+host = os.environ.get("HOST")       # "0.0.0.0"
+port = int(os.environ.get("PORT"))  # 5000
+
+sel = selectors.DefaultSelector()
+
+
+def accept_wrapper(sock):
+    conn, addr = sock.accept()  # Should be ready to read
+    print(f"Accepted connection from {addr}")
+    conn.setblocking(False)
+    message = libserver.Message(sel, conn, addr)
+    sel.register(conn, selectors.EVENT_READ, data=message)
+
+
+lsock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+# Avoid bind() exception: OSError: [Errno 48] Address already in use
+lsock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+lsock.bind(("", port))
+lsock.listen()
+print(f"Listening on {(host, port)}")
+lsock.setblocking(False)
+sel.register(lsock, selectors.EVENT_READ, data=None)
+
+# Open a ngrok tunnel to the socket
+public_url = ngrok.connect(port, "tcp", remote_addr=f"{host}:{port}").public_url
+print(f"ngrok tunnel \"{public_url}\" -> \"tcp://127.0.0.1:{port}\"")
+
+try:
+    while True:
+        events = sel.select(timeout=None)
+        for key, mask in events:
+            if key.data is None:
+                accept_wrapper(key.fileobj)
+            else:
+                message = key.data
+                try:
+                    message.process_events(mask)
+                except Exception:
+                    print(
+                        f"Main: Error: Exception for {message.addr}:\n"
+                        f"{traceback.format_exc()}"
+                    )
+                    message.close()
+except KeyboardInterrupt:
+    print("Caught keyboard interrupt, exiting")
+    sel.close()
+finally:
+    sel.close()

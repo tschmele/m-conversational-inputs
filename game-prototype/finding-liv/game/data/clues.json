@@ -1,0 +1,372 @@
+{
+    "cat" : [
+        {
+            "clue":"missing",
+            "collected":false,
+            "note_text":"The old lady's cat is missing. She called the cat 'Liv'."
+        },
+        {
+            "clue":"duration",
+            "collected":false,
+            "note_text":"The cat was still there on Friday, but hasn't been seen since noon. That was almost two days ago now."
+        },
+        {
+            "clue":"about",
+            "collected":false,
+            "note_text":"She really is called Liv and is roughly 10 years old. She supposedly sticks close to the neighbourhood and everyone should recognise her."
+        },
+        {
+            "clue":"description",
+            "collected":false,
+            "note_text":"Her fur is white with by now dark gray spots. A rather unique appearance for the region I'm told."
+        },
+        {
+            "clue":"tipp1",
+            "collected":false,
+            "note_text":"According to the old lady she is very selective with her food. There is only one brand she consistently eats."
+        },
+        {
+            "clue":"location",
+            "collected":false,
+            "note_text":"The old lady says she can't be far away. Her cat has never left their town."
+        },
+        {
+            "clue":"kids",
+            "collected":false,
+            "note_text":"Liv appears to get along great with Christine's kids, who look after her sometimes."
+        },
+        {
+            "clue":"noise1",
+            "collected":false,
+            "note_text":"Robert told me he heard cat noises all night from Saturday to Sunday. The cat was already missing by then. He thinks it's coming from the 4th house."
+        },
+        {
+            "clue":"trapped",
+            "collected":false,
+            "note_text":"Since the cat was disturbing at night, even though it was missing, he suspects it got trapped in the kids' room next door."
+        },
+        {
+            "clue":"wellknown",
+            "collected":false,
+            "note_text":"Christine Brunner seemed surprised to not have seen the cat the last days. Long disappearances are unusual for Liv."
+        },
+        {
+            "clue":"nottrapped",
+            "collected":false,
+            "note_text":"I asked Christine to check her children's bedroom for a trapped cat. Liv was not there. That lead turned up nothing."
+        },
+        {
+            "clue":"lastseen",
+            "collected":false,
+            "note_text":"The last time someone saw her was right before the Grandma went upstairs to grab spare sewing supplies."
+        },
+        {
+            "clue":"tipp2",
+            "collected":false,
+            "note_text":"Martin Cloverson suggested using her favourite food to lure her out of hiding. Failing that he says to just follow the noise she makes."
+        },
+        {
+            "clue":"noise2",
+            "collected":false,
+            "note_text":"Witness reports from a certain \"Martin Cloverson\" speak of loud cat noises audible from house 1. After searching the entire building it was concluded that noise does not originate from within the premises."
+        },
+        {
+            "clue":"martin",
+            "collected":false,
+            "note_text":"It could be possible that there is no \"culprit\" connected to this missing cat case. Martin suggests she may have just walked off and got lost or distracted. Something to look into."
+        }
+    ],
+    "grandma" : [
+        {
+            "clue":"appearance",
+            "collected":false,
+            "note_text":"A charming old lady, dressed entirely in flower patterns. She came to my office looking for help."
+        },
+        {
+            "clue":"cat",
+            "collected":false,
+            "note_text":"Apparently she used to have a cat which has gone missing."
+        },
+        {
+            "clue":"deaf",
+            "collected":false,
+            "note_text":"She looks like she has trouble hearing me properly unless I speak loud enough... maybe she forgot her hearing aid?"
+        },
+        {
+            "clue":"catfood",
+            "collected":false,
+            "note_text":"I was offered a can of cat food to help lure out the cat if I go looking for her."
+        },
+        {
+            "clue":"location",
+            "collected":false,
+            "note_text":"The street she lives in only has four houses. The second house is hers."
+        },
+        {
+            "clue":"suspicion",
+            "collected":false,
+            "note_text":"She believes all of her neighbours are innocent and would never purposefully harm her cat."
+        },
+        {
+            "clue":"grandma",
+            "collected":false,
+            "note_text":"According to herself she is simply an old lady who likes plants, books and cooking. Her favourite pastime is baking."
+        },
+        {
+            "clue":"catbirthday_yes",
+            "collected":false,
+            "note_text":"I agreed to come back next week for her cats birthday party."
+        },
+        {
+            "clue":"catbirthday_no",
+            "collected":false,
+            "note_text":"I denied the invitation to join her cats birthday party next week."
+        },
+        {
+            "clue":"findcat",
+            "collected":false,
+            "note_text":"I agreed to help Grandma find her cat Liv. I'll start by asking her neighbours what they have seen tomorrow."
+        },
+        {
+            "clue":"robert_fact1",
+            "collected":false,
+            "note_text":"She took care of all children in this street, even the ones that are now adults. This is why everyone calls her Grandma, they don't even remember her name."
+        },
+        {
+            "clue":"robert_fact2",
+            "collected":false,
+            "note_text":"Robert warned me about her cheesecake. He was unwilling to elaborate further."
+        },
+        {
+            "clue":"name",
+            "collected":false,
+            "note_text":"She insists on being called \"Grandma\". Maybe she has been called that for so long, even she forgot her real name."
+        },
+        {
+            "clue":"martin_fact",
+            "collected":false,
+            "note_text":"Grandma appears to do everything she can to live up to that title. The only thing she could improve on is her knitting, Martin claims the socks she made speak for themselves."
+        }
+    ],
+    "martin" : [
+        {
+            "clue":"introduction",
+            "collected":false,
+            "note_text":"The young Mr. Cloverson lives in the first house of their street on his own."
+        },
+        {
+            "clue":"grandma",
+            "collected":false,
+            "note_text":"The old lady claims Martin is a computer genius that fixes hers every time. He recently got a new job."
+        },
+        {
+            "clue":"robert_neutral",
+            "collected":false,
+            "note_text":"He grew up alongside Robert van Glean, who is convinced of his innocence."
+        },
+        {
+            "clue":"robert_fren",
+            "collected":false,
+            "note_text":"He and Robert are childhood friends. According to Robert, Martin is unlikely to be a suspect, but would be a good source for information about the missing cat."
+        },
+        {
+            "clue":"robert_algul",
+            "collected":false,
+            "note_text":"Martin seems to have difficulties holding his alcohol. Robert claims his limit is at two beers."
+        },
+        {
+            "clue":"christine",
+            "collected":false,
+            "note_text":"Christine Brunner has a mixed impression of him. She relies on him for help with technological issues and repairs around the house, but is weary about his drinking habit."
+        },
+        {
+            "clue":"appearance",
+            "collected":false,
+            "note_text":"Martin Cloverson is a disheveled looking man in pyjamas. He looks like a mix of having just woken up and like he has not slept in 2 days."
+        },
+        {
+            "clue":"lastseen",
+            "collected":false,
+            "note_text":"He confessed to having seen the missing cat on Friday. That makes him the last person to see her before she went missing."
+        },
+        {
+            "clue":"techsupport",
+            "collected":false,
+            "note_text":"According to his own words he spends a lot of time at Grandma's house to help her out whenever he can. This would make it easy for him to kidnap the cat, but also highly unlikely."
+        },
+        {
+            "clue":"self",
+            "collected":false,
+            "note_text":"This 29 year old man currently works as tech support. He talked about going to the gym starting next week, it remains to be seen if he will keep that promise."
+        },
+        {
+            "clue":"hangover",
+            "collected":false,
+            "note_text":"Martin is visibly unwell. Upon being asked he admits to having a hangover from a night of drinking. He states having the situation under control."
+        },
+        {
+            "clue":"children",
+            "collected":false,
+            "note_text":"Kids are generally too noisy for him. He keeps his distance and doesn't know much about them."
+        }
+    ],
+    "robert" : [
+        {
+            "clue":"introduction",
+            "collected":false,
+            "note_text":"The house of Kyle and Margot van Glean is currently only inhabited by their son Robert. It is the third in their street."
+        },
+        {
+            "clue":"bigcity",
+            "collected":false,
+            "note_text":"He moved out as soon as he could. Robert now lives in the 'Big City' as a banker and is currently visiting his childhood home."
+        },
+        {
+            "clue":"parents",
+            "collected":false,
+            "note_text":"Kyle van Glean seems to have trouble with his knee. He and his wife are currently out of town to visit a clinic."
+        },
+        {
+            "clue":"appearance",
+            "collected":false,
+            "note_text":"Robert van Glean is wearing a suit in perfect condition. His hair is styled even early on this sunday morning."
+        },
+        {
+            "clue":"allergy",
+            "collected":false,
+            "note_text":"He claims to be allergic to cats. Should this turn out true, he is unlikely to be the culprit. Unfortunately, I have no way of testing this, without finding the cat first."
+        },
+        {
+            "clue":"childhood",
+            "collected":false,
+            "note_text":"This is the street he grew up in. Some of its current residents, like Martin Cloverson, grew up alongside him."
+        },
+        {
+            "clue":"alibi",
+            "collected":false,
+            "note_text":"He and Martin met up on Saturday for a few drinks. According to him, Martin does not know about the missing cat and should not be a suspect."
+        },
+        {
+            "clue":"hater",
+            "collected":false,
+            "note_text":"Robert doesn't seem to like his neighbours' kids. Aside from that he doesn't know anything about the Brunner family."
+        },
+        {
+            "clue":"thinwalls",
+            "collected":false,
+            "note_text":"He complains at length about the thin walls in these buildings and their consequences. Apparently his neighbours placed the kids' bedroom adjacent to his."
+        },
+        {
+            "clue":"culprit",
+            "collected":false,
+            "note_text":"According to Robert noone on this street would have malicious intentions towards the cat. The most likely scenario would be Christine's children accidentally trapping it in their room."
+        },
+        {
+            "clue":"christine",
+            "collected":false,
+            "note_text":"His suit has left a deep impression on Christine Brunner. She associates him with his suit as much she associates suits with him. At the same time he does not give off a religious impression to her."
+        },
+        {
+            "clue":"martin_fren",
+            "collected":false,
+            "note_text":"He has been close friends with Martin Cloverson before moving away. They grew up together and still connect regularly."
+        },
+        {
+            "clue":"martin_funfacts",
+            "collected":false,
+            "note_text":"Martin seems to have a lot of information about Robert. His grin makes it difficult to judge how much of it is real."
+        },
+        {
+            "clue":"hi",
+            "collected":false,
+            "note_text":"I should tell him \"Hi\" from Martin..."
+        },
+        {
+            "clue":"haiii",
+            "collected":false,
+            "note_text":"Oh my god... they were roommates..."
+        }
+    ],
+    "christine" : [
+        {
+            "clue":"introduction",
+            "collected":false,
+            "note_text":"The Brunner family, consisting of Christine, Frank and their children, lives in the last house of that street."
+        },
+        {
+            "clue":"grandma",
+            "collected":false,
+            "note_text":"Frank and his parents lived in that house originally. After he married Christine and she moved in, his parents moved out.\nTheir kids Josie and Sam are currently at Disneyland with Frank and his parents, Christine remains at their house."
+        },
+        {
+            "clue":"grandma_sam",
+            "collected":false,
+            "note_text":"Their son Sam is a very active child. He is currently in a handball club in an effort from his mother to tire him out."
+        },
+        {
+            "clue":"grandma_josie",
+            "collected":false,
+            "note_text":"Their daughter Josie is already in school and sounds like a very determined child. She has a deep fascination for dinosaurs."
+        },
+        {
+            "clue":"appearance",
+            "collected":false,
+            "note_text":"Christine Brunner is a tired, young woman. She seems not quite ready to tackle the day, but is up and going anyway."
+        },
+        {
+            "clue":"cat",
+            "collected":false,
+            "note_text":"This woman is either incredibly fond of the missing cat or a terrifying actor. Until the latter has been disproven, she will remain a suspect."
+        },
+        {
+            "clue":"alibi",
+            "collected":false,
+            "note_text":"Christine has not heard the cat in quite some time. Although she has been busy doing laundry in the basement, which could explain why she did not hear anything?"
+        },
+        {
+            "clue":"oldlady",
+            "collected":false,
+            "note_text":"Even she refers to the old lady only as \"Grandma\". Maybe that nickname has become the truth for her children by now."
+        },
+        {
+            "clue":"suspect",
+            "collected":false,
+            "note_text":"She looks to like the old lady a lot. Unless she is a professional actor, she is either innocent or this is meant as revenge for the cheesecake."
+        },
+        {
+            "clue":"inlaws",
+            "collected":false,
+            "note_text":"Her inlaws do not like her and the feeling is mutual. The issue seems to originate from the fact that she was not born in this town."
+        },
+        {
+            "clue":"kids",
+            "collected":false,
+            "note_text":"Her kids, Sam and Josie, are respectively 4 and 7 years old. She appears to have good relationship with them for now."
+        },
+        {
+            "clue":"disneyland",
+            "collected":false,
+            "note_text":"Frank and the kids are on a trip to disneyland with Christines inlaws. She does not seem upset about being left behind."
+        },
+        {
+            "clue":"josie",
+            "collected":false,
+            "note_text":"Josie is the older sister. She has an unhealthy attachement to dinosaurs according to her mother. I should think about which one is my favourite before meeting her...\nMaybe the Dilophosaurus? Or just a generic Velociraptor or T-Rex? But Triceratops are also cool..."
+        },
+        {
+            "clue":"sam",
+            "collected":false,
+            "note_text":"Sam is the younger brother. His mother signed him up for a handball \"mini league\". Not something I ever considered before, but maybe I'll go watch one of his games."
+        },
+        {
+            "clue":"culprit",
+            "collected":false,
+            "note_text":"Christine implied that there might not even be a \"culprit\" to find here. She is convinced that neither her family, nor her neighbours, would steal a cat."
+        },
+        {
+            "clue":"martin_frank",
+            "collected":false,
+            "note_text":"Martin Cloverson claims to be aquainted with her husband Frank, who he grew up with. His connection to Christine is superficial at best."
+        }
+    ]
+}

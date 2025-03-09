@@ -1,0 +1,9 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 211: invalid syntax
+            for sk in all_keys["dialogue"]["introduction"]
+
+Ren'Py Version: Ren'Py 8.3.4.24120703
+Wed Feb 26 03:33:29 2025

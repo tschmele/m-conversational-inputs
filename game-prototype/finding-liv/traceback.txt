@@ -1,0 +1,30 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 377, in script
+    $ next_topic, evaluation = process_input(p_in, character)
+  File "game/script.rpy", line 377, in <module>
+    $ next_topic, evaluation = process_input(p_in, character)
+  File "game/script.rpy", line 180, in process_input
+    name = character.name
+AttributeError: 'StoreModule' object has no attribute 'name'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 377, in script
+    $ next_topic, evaluation = process_input(p_in, character)
+  File "F:\master\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 827, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "F:\master\renpy\renpy-8.3.4-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 377, in <module>
+    $ next_topic, evaluation = process_input(p_in, character)
+  File "game/script.rpy", line 180, in process_input
+    name = character.name
+AttributeError: 'StoreModule' object has no attribute 'name'
+
+Windows-10-10.0.26100 AMD64
+Ren'Py 8.3.4.24120703
+Finding Liv 1.0.1
+Wed Feb 26 02:32:06 2025

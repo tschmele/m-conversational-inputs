@@ -1,0 +1,311 @@
+{
+	"dialogue":{
+		"introduction":[
+			"i am called",
+			"im called",
+			"i am a",
+			"im a",
+			"i am an",
+			"im an",
+			"detective",
+			"investigator",
+			"my name is"
+		],
+		"greeting":[
+			"hello",
+			"good morning",
+			"hi ",
+			"greetings",
+			"how are you",
+			"bonjour",
+			"hola",
+			"haiii",
+			"hey"
+		],
+		"leaving":[
+			"bye",
+			"see you later",
+			"until next time",
+			"im off",
+			"farewell",
+			"adios",
+			"i am leaving",
+			"im leaving",
+			"ill go",
+			"ill leave",
+			"leaving now",
+			"leave now",
+			"going to leave",
+			"will leave"
+		]
+	},
+	"help":{
+		"how":[
+			"how"
+		],
+		"confirmation":[
+			"will",
+			"going to"
+		],
+		"request":[
+			"me",
+			"with",
+			"investigation",
+			"search"
+		]
+	},
+	"cat":{
+		"duration":[
+			"since friday",
+			"two days",
+			"2 days",
+			"how long",
+			"since when"
+		],
+		"location":[
+			"location",
+			"locations",
+			"where",
+			"spot",
+			"spots",
+			"hang out",
+			"hangs out",
+			"walk around",
+			"walks around",
+			"whereabouts"
+		],
+		"missing":[
+			"missing",
+			"lost",
+			"gone",
+			"see",
+			"seen"
+		],
+		"about":[
+			"about",
+			"details",
+			"name",
+			"called"
+		],
+		"behaviour":[
+			"behaviour",
+			"behave",
+			"act"
+		],
+		"appearance":[
+			"appearance",
+			"look like",
+			"looks like"
+		],
+		"tips":[
+			"tip",
+			"tips"
+		],
+		"noise":[
+			"noise",
+			"noises",
+			"meowing",
+			"crying",
+			"cry",
+			"sound",
+			"sounds"
+		],
+		"relationship":[
+			"opinion",
+			"connection",
+			"relationship",
+			"connection"
+		]
+	},
+	"culprit":{
+		"who":[
+			"who",
+			"about"
+		],
+		"grandma":[
+			"grandma"
+		],
+		"martin":[
+			"martin"
+		],
+		"robert":[
+			"robert"
+		],
+		"kids":[
+			"kids",
+			"kid",
+			"josie",
+			"sam"
+		],
+		"christine":[
+			"christine",
+			"frank"
+		]
+	},
+	"grandma":{
+		"plants":[
+			"plants"
+		],
+		"name":[
+			"name",
+			"called"
+		],
+		"about":[
+			"about",
+			"details"
+		],
+		"relationship":[
+			"opinion",
+			"connection",
+			"relationship",
+			"connection"
+		]
+	},
+	"martin":{
+		"name":[
+			"name"
+		],
+		"about":[
+			"about",
+			"details"
+		],
+		"sayshi":[
+			"from",
+			"asked me to",
+			"says hi"
+		],
+		"alcohol":[
+			"alcohol",
+			"drinking",
+			"drunk",
+			"alcoholic",
+			"yesterday",
+			"saturday",
+			"evening"
+		],
+		"relationship":[
+			"opinion",
+			"connection",
+			"relationship",
+			"connection"
+		],
+		"hungover":[
+			"hungover",
+			"hangover",
+			"sick",
+			"ill",
+			"unwell",
+			"sickly"
+		]
+	},
+	"robert":{
+		"call":[
+			"call",
+			"called",
+			"calling"
+		],
+		"name":[
+			"name"
+		],
+		"about":[
+			"about",
+			"details"
+		],
+		"parents":[
+			"parents",
+			"kyle",
+			"margot"
+		],
+		"relationship":[
+			"opinion",
+			"connection",
+			"relationship",
+			"connection"
+		]
+	},
+	"christine":{
+		"name":[
+			"name"
+		],
+		"about":[
+			"about",
+			"details"
+		],
+		"coffee":[
+			"coffee",
+			"break"
+		],
+		"inlaws":[
+			"inlaws",
+			"in law"
+		],
+		"relationship":[
+			"opinion",
+			"connection",
+			"relationship",
+			"connection"
+		],
+		"family":[
+			"family",
+			"kids",
+			"kid",
+			"husband",
+			"josie",
+			"sam",
+			"frank"
+		]
+	},
+	"kids":{
+		"about":[
+			"about",
+			"details"
+		],
+		"noise":[
+			"noise",
+			"noises",
+			"sound",
+			"sounds"
+		],
+		"location":[
+			"location",
+			"where"
+		]
+	},
+	"josie":{
+		"about":[
+			"about",
+			"details"
+		],
+		"dinosaurs":[
+			"dinosaurs",
+			"dinosaur",
+			"paleonthology"
+		],
+		"location":[
+			"location",
+			"where"
+		]
+	},
+	"sam":{
+		"about":[
+			"about",
+			"details"
+		],
+		"handball":[
+			"handball",
+			"sport",
+			"sports"
+		],
+		"location":[
+			"location",
+			"where"
+		]
+	},
+	"neighbours":{
+		"who":[
+			"who",
+			"how many",
+			"about"
+		]
+	}
+}

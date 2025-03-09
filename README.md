@@ -26,7 +26,7 @@ thesis paper : [on github](documentation\files\Schmele_Tristan-Master_Thesis.pdf
 
 2 run ``python ./docker_server/socket-server-local.py``
 
-3 wait for 'Listening on ('127.0.0.1', 5000)
+3 wait for 'Listening on ('127.0.0.1', 5000)'
 
 ### how to run - game (pc)
 

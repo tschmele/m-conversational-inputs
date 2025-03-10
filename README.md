@@ -49,7 +49,7 @@ convotest / sockettest
 
 2 run ``python ./docker_server/socket-server-local.py``
 
-3 wait for 'Listening on ('127.0.0.1', 5000)
+3 wait for 'Listening on ('127.0.0.1', 5000)'
 
 ### how to run - game (pc)
 

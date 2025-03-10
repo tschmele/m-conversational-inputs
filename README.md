@@ -12,9 +12,11 @@ thesis paper : [on github](documentation/files/Schmele_Tristan_Masters_Thesis_20
 
 ### abstract
 
-> This thesis investigates the correlation between a conversational input method and the player's immersion in role-playing video games. Communicating with digital assistants using natural language is becoming increasingly common. The resulting perception of computers as social actors is used in this thesis to intentionally humanize the characters in a role-playing game to create an immersive experience.
->
->A prototype based on conversational inputs was play tested by 15 participants and their experience was documented in an attached questionnaire. Their responses were analyzed for correlation between the input-method and their immersion. The analysis shows possible correlations between the input-method and the player's empathy for the characters, as well as between the player's immersion and their empathy. This thesis concludes that conversational inputs can influence the player's immersion, but the sample size is not big enough to allow for a confident generalization.
+> This thesis investigates the correlation between a conversational input method and the player's immersion in role-playing video games. Communicating with digital assistants using natural language is becoming commonplace, resulting in the perception of computers as social actors. This thesis utilizes this effect to intentionally humanize the characters in a role-playing game to create an immersive experience.
+>  
+> A prototype based on conversational inputs was play tested by 15 participants. After testing the prototype, the participants documented their experiences in a questionnaire with emphasis on their immersion and emotions during their game session. Their responses were analyzed for correlation between the conversational input-method and their immersion. The analysis shows possible correlations between the input-method and the player's empathy for the characters, as well as between the player's immersion and their empathy. 
+> 
+> This thesis concludes that conversational inputs can influence the player's immersion, by strengthening their emotional connection with the characters. While the sample size limited this studies generalizability, the findings provide a relevant foundation and direction for further research. After validating and generalizing these findings through larger studies, they will become applicable in research and development of video games and digital assistants.
 
 ---
 
